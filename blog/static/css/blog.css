@@ -1,6 +1,6 @@
 
 .page-header {
-    background-color: #ff9400;
+    background-color: #2C3E58;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -12,7 +12,7 @@
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 200px;
 }
 
 h1, h2, h3, h4 {
@@ -21,7 +21,10 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #C7ED07;
+    color: #91CA47;
+    right:50px;
+    float:right
+
 }
 
 .save {
@@ -46,7 +49,7 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #68eaed;
+    color: #0078D7;
 }
 
 p.post_text {
@@ -56,17 +59,19 @@ p.post_text {
 }
 
 p.post-detail {
-    margin-left:40px;
+    margin-top:30px;
+    margin-left:30px;
     padding: 10px;
-    width: 180%;
+    width: 150%;
     font-family: 'Verdana';
-    align-items: center;
+    font-size: 1.2em;
+    text-align:left;
     #background-color: #cccccc;
 
 }
 
 body {
- background-image: url( '/static/img/sample_black.jpg' );
+ background-image: url( '/static/img/bat.jpg' );
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
