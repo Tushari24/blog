@@ -9,14 +9,17 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    margin-left: 400px;
+    font-family: 'BebasBold'
 }
 
 .content {
-    margin-left: 50px;
+    margin-left: 400px;
+    width: 75%;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Cambria Math', cursive;
 
 }
 
@@ -46,6 +49,8 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    margin-left: 120px;
+
 }
 
 .post h1 a, .post h1 a:visited {
@@ -62,7 +67,7 @@ p.post-detail {
     margin-top:30px;
     margin-left:30px;
     padding: 10px;
-    width: 150%;
+    width: 100%;
     font-family: 'Verdana';
     font-size: 1.2em;
     text-align:left;
@@ -71,16 +76,22 @@ p.post-detail {
 }
 
 marquee.element{
-    color: #44f441;
+    color: #f46e00;
     font-size: 15pt;
     text-decoration: none;
 }
 
 body {
- background-image: url( '/static/img/redabs.jpg' );
+ background-image: url( '/static/img/full_4.jpg' );
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: #ffffff;
+}
+
+@font-face {
+  font-family: 'BebasBold';
+  src: url('/static/fonts/BebasNeue Bold');
+  src: local('/static/fonts/abc.ttf')
 }
