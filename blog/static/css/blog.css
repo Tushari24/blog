@@ -96,6 +96,6 @@ color: #ffffff;
 
 @font-face {
     font-family: 'BebasBold';
-    src: url('/static/fonts/BebasNeue Bold');
-    src: local('/static/fonts/abc.ttf')
+    src: local('/static/fonts/BebasNeueBold.ttf');
+    src: local("/static/fonts/BebasNeueRegular.ttf")
 }
